@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNG.Sample2"/>
+      <class name="DDT.FetchingDataFromPropertiesFile"/>
+      <class name="TestNG.Sample1"/>
+      <class name="DDT.FetchingDataFromPropertiesFile1"/>
+      <class name="DDT.InsertDataIntoPropertiesFile"/>
+      <class name="TestNG.DataProviderEx3"/>
+      <class name="TestNG.Sample4"/>
+      <class name="TestNG.DataProviderEx2"/>
+      <class name="TestNG.DataProviderEx1"/>
+      <class name="TestNG.Sample3"/>
+      <class name="Campaing.CreateCapaign"/>
+      <class name="DDT.ReadingDataFromPropertiesFile"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

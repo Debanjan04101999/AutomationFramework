@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestNG.DataProviderEx3">
+        <methods>
+          <include name="createOrganization"/>
+        </methods>
+      </class> <!-- TestNG.DataProviderEx3 -->
+      <class name="TestNG.DataProviderEx2">
+        <methods>
+          <include name="createOrganization" invocation-numbers="0 2"/>
+        </methods>
+      </class> <!-- TestNG.DataProviderEx2 -->
+      <class name="Campaing.CreateCapaign">
+        <methods>
+          <include name="as"/>
+          <include name="bt"/>
+          <include name="ac"/>
+          <include name="bs"/>
+          <include name="bc"/>
+          <include name="am"/>
+          <include name="at"/>
+          <include name="createCampaignTest"/>
+          <include name="bm"/>
+        </methods>
+      </class> <!-- Campaing.CreateCapaign -->
+      <class name="DDT.FetchingDataFromPropertiesFile1">
+        <methods>
+          <include name="FetchingData"/>
+        </methods>
+      </class> <!-- DDT.FetchingDataFromPropertiesFile1 -->
+      <class name="TestNG.Sample3">
+        <methods>
+          <include name="deleteContact"/>
+          <include name="createContact"/>
+          <include name="modifyContact"/>
+        </methods>
+      </class> <!-- TestNG.Sample3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
